@@ -1,9 +1,6 @@
-# Data Pipeline Organizer
+# Automated Data Pipeline Organizer
 
-A production-inspired Bash automation script that organizes
-incoming CSV data files through a structured pipeline workflow.
-
-Built as part of my Data Engineering learning journey.
+A Bash script that automatically organizes, validates, and logs data pipeline files. Built as a hands-on project during Linux & Terminal fundamentals training.
 
 ---
 
@@ -174,10 +171,9 @@ In production, logs are how engineers debug failures at 3am.
 ## Part of a Larger Journey
 
 This project is part of my structured Data Engineering roadmap:
-
-- Phase 1 — Industry Foundation ✅
-- Phase 2A — Linux and Terminal ✅ (this project)
-- Phase 2B — Git and GitHub 🔄 (in progress)
+- Phase 1 — Industry Foundation
+- Phase 2A — Linux and Terminal (this project)
+- Phase 2B — Git and GitHub (in progress)
 - Phase 2C — Networking Basics
 - Phase 3 — Python for Data Engineering
 - Phase 4 — SQL and Databases
@@ -185,7 +181,6 @@ This project is part of my structured Data Engineering roadmap:
 - Phase 6 — Core Data Engineering
 - Phase 7 — Projects and Portfolio
 - Phase 8 — Cloud and Modern Tools
-
 Follow my journey as I build toward my first Data Engineering role.
 
 ---
