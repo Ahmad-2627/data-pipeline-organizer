@@ -195,6 +195,6 @@ Follow my journey as I build toward my first Data Engineering role.
 **Ahmad**
 BSIT Student — Building toward a Data Engineering career
 
-GitHub: github.com/ahmad2627
+GitHub: https://github.com/Ahmad-2627
 
 LinkedIn: https://www.linkedin.com/in/muhammad-ahmad-751477369/
