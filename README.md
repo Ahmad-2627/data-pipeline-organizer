@@ -194,9 +194,6 @@ Follow my journey as I build toward my first Data Engineering role.
 
 **Ahmad**
 BSIT Student — Building toward a Data Engineering career
+
 GitHub: github.com/ahmad2627
 LinkedIn: https://www.linkedin.com/in/muhammad-ahmad-751477369/
-
-Step 2 — Create a .gitignore File
-This tells Git which files to ignore and not upload:
-$ cat > 
