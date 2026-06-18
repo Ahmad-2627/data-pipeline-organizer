@@ -45,19 +45,19 @@ data_pipeline_organizer/
 
 ├── data/
 
-│   ├── incoming/          New files land here
+│     ├── incoming/          New files land here
 
-│   ├── raw/               Valid files ready for processing
+│     ├── raw/               Valid files ready for processing
 
-│   ├── processed/         Files after downstream processing
+│     ├── processed/         Files after downstream processing
 
-│   └── rejected/          Empty or invalid files
+│     └── rejected/          Empty or invalid files
 
 ├── logs/                  Daily log files (auto-generated)
 
 ├── scripts/
 
-│   └── run_pipeline.sh    Main automation script
+│     └── run_pipeline.sh    Main automation script
 
 └── README.md
 
@@ -77,6 +77,7 @@ Change BASE_DIR to your actual path
 Add some CSV files to the incoming folder:
 
 echo "id,name,amount" > data/incoming/sales.csv
+
 echo "1,Ahmad,5000" >> data/incoming/sales.csv
 
 Make the script executable and run it:
