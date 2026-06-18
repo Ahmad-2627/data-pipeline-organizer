@@ -75,8 +75,8 @@ nano scripts/run_pipeline.sh
 Change BASE_DIR to your actual path
 
 Add some CSV files to the incoming folder:
-echo "id,name,amount" > data/incoming/sales.csv
 
+echo "id,name,amount" > data/incoming/sales.csv
 echo "1,Ahmad,5000" >> data/incoming/sales.csv
 
 Make the script executable and run it:
