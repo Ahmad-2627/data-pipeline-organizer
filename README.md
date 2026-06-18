@@ -38,21 +38,13 @@ logs/            ← every action logged with timestamp
 data_pipeline_organizer/
 
 ├── data/
-
-│   ├── incoming/          New files land here
-
-│   ├── raw/               Valid files ready for processing
-
-│   ├── processed/         Files after downstream processing
-
-│   └── rejected/          Empty or invalid files
-
+│     ├── incoming/          New files land here
+│     ├── raw/               Valid files ready for processing
+│     ├── processed/         Files after downstream processing
+│     └── rejected/          Empty or invalid files
 ├── logs/                  Daily log files (auto-generated)
-
 ├── scripts/
-
-│   └── run_pipeline.sh    Main automation script
-
+│     └── run_pipeline.sh    Main automation script
 └── README.md
 
 ---
@@ -79,43 +71,24 @@ chmod +x scripts/run_pipeline.sh
 
 ## Sample Output
 [2026-06-17 23:15:37] ============================================
-
 [2026-06-17 23:15:37] Pipeline started by: ahmad2627
-
 [2026-06-17 23:15:37] ============================================
-
 [2026-06-17 23:15:37] All required folders verified.
-
 [2026-06-17 23:15:37] Found 4 CSV file(s) to process.
-
 [2026-06-17 23:15:37] Processing: empty_file.csv (lines: 0)
-
 [2026-06-17 23:15:37] REJECTED: empty_file.csv is empty or has no data rows.
-
 [2026-06-17 23:15:37] Processing: sales_01.csv (lines: 3)
-
 [2026-06-17 23:15:37] MOVED: sales_01.csv → raw/2026-06-17_sales_01.csv
-
 [2026-06-17 23:15:37] Processing: sales_02.csv (lines: 2)
-
 [2026-06-17 23:15:37] MOVED: sales_02.csv → raw/2026-06-17_sales_02.csv
-
 [2026-06-17 23:15:37] Processing: sales_03.csv (lines: 2)
-
 [2026-06-17 23:15:37] MOVED: sales_03.csv → raw/2026-06-17_sales_03.csv
-
 [2026-06-17 23:15:37] ============================================
-
 [2026-06-17 23:15:37] Pipeline Summary for Ahmad:
-
 [2026-06-17 23:15:37]   Total files found:    4
-
 [2026-06-17 23:15:37]   Successfully moved:   3
-
 [2026-06-17 23:15:37]   Rejected (empty):     1
-
 [2026-06-17 23:15:37] ============================================
-
 [2026-06-17 23:15:37] Pipeline completed successfully.
 
 ---
